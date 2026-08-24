@@ -1,0 +1,1448 @@
+{
+  "version": 1,
+  "fonts": [
+    {
+      "id": "60‘S스트라이프체",
+      "name": "60‘S스트라이프체",
+      "fontFile": "60‘S스트라이프체/60sSTRIPE.otf",
+      "licenseFile": "60‘S스트라이프체/60‘S스트라이프체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288263&menuNo=200023"
+      },
+      "previewImage": "60‘S스트라이프체/sample.png"
+    },
+    {
+      "id": "62570체",
+      "name": "62570체",
+      "fontFile": "62570체/62570체.ttf",
+      "licenseFile": "62570체/62570체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288429&menuNo=200026"
+      },
+      "previewImage": "62570체/sample.png"
+    },
+    {
+      "id": "ACC어린이가을담은체",
+      "name": "ACC어린이가을담은체",
+      "fontFile": "ACC어린이가을담은체/ACC어린이가을담은체.otf",
+      "licenseFile": "ACC어린이가을담은체/ACC어린이가을담은체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302261&menuNo=200023"
+      },
+      "previewImage": "ACC어린이가을담은체/sample.png"
+    },
+    {
+      "id": "ACC어린이하늘맑은체",
+      "name": "ACC어린이하늘맑은체",
+      "fontFile": "ACC어린이하늘맑은체/ACC어린이하늘맑은체.otf",
+      "licenseFile": "ACC어린이하늘맑은체/ACC어린이하늘맑은체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302263&menuNo=200023"
+      },
+      "previewImage": "ACC어린이하늘맑은체/sample.png"
+    },
+    {
+      "id": "KBL 점프체",
+      "name": "KBL 점프체",
+      "fontFile": "KBL 점프체/KBLJump_R.otf",
+      "licenseFile": "KBL 점프체/KBL 점프체.txt",
+      "license": {
+        "name": "KBL 전용서체의 지식재산권은 KBL에 있습니다. 개인 및 기업 사용자를 포함한 모든 사용자에게 자유롭게 배포할 수 있고 상업적 이용이 가능합니다.",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KBL 전용서체의 지식재산권은 KBL에 있습니다. 개인 및 기업 사용자를 포함한 모든 사용자에게 자유롭게 배포할 수 있고 상업적 이용이 가능합니다.",
+        "sourceUrl": "https://www.kbl.or.kr/intro/font"
+      },
+      "previewImage": "KBL 점프체/sample.png"
+    },
+    {
+      "id": "KBL 코트체",
+      "name": "KBL 코트체",
+      "fontFile": "KBL 코트체/KBLCourt_EB.otf",
+      "licenseFile": "KBL 코트체/KBL 코트체.txt",
+      "license": {
+        "name": "KBL 전용서체의 지식재산권은 KBL에 있습니다. 개인 및 기업 사용자를 포함한 모든 사용자에게 자유롭게 배포할 수 있고 상업적 이용이 가능합니다.",
+        "image": "https://www.kbl.or.kr/assets/img/logo/logo-header.svg",
+        "imageAlt": "KBL 전용서체의 지식재산권은 KBL에 있습니다. 개인 및 기업 사용자를 포함한 모든 사용자에게 자유롭게 배포할 수 있고 상업적 이용이 가능합니다.",
+        "sourceUrl": "https://www.kbl.or.kr/intro/font"
+      },
+      "previewImage": "KBL 코트체/sample.png"
+    },
+    {
+      "id": "KCC_안중근체",
+      "name": "KCC_안중근체",
+      "fontFile": "KCC_안중근체/KCC-Ahnjunggeun.otf",
+      "licenseFile": "KCC_안중근체/KCC 안중근체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13214025&menuNo=200026"
+      },
+      "previewImage": "KCC_안중근체/sample.png"
+    },
+    {
+      "id": "KCC김환기체",
+      "name": "KCC김환기체",
+      "fontFile": "KCC김환기체/KCC-Kimhwanki.otf",
+      "licenseFile": "KCC김환기체/KCC김환기체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13300207&menuNo=200023"
+      },
+      "previewImage": "KCC김환기체/sample.png"
+    },
+    {
+      "id": "KCC김훈체",
+      "name": "KCC김훈체",
+      "fontFile": "KCC김훈체/KCC김훈체.otf",
+      "licenseFile": "KCC김훈체/KCC김훈체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13072021&menuNo=200026"
+      },
+      "previewImage": "KCC김훈체/sample.png"
+    },
+    {
+      "id": "KCC도담도담체",
+      "name": "KCC도담도담체",
+      "fontFile": "KCC도담도담체/KCCDodamdodam.otf",
+      "licenseFile": "KCC도담도담체/KCC도담도담체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13209184&menuNo=200023"
+      },
+      "previewImage": "KCC도담도담체/sample.png"
+    },
+    {
+      "id": "KCC무럭무럭체",
+      "name": "KCC무럭무럭체",
+      "fontFile": "KCC무럭무럭체/KCC-Murukmuruk.otf",
+      "licenseFile": "KCC무럭무럭체/KCC무럭무럭체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13262151&menuNo=200023"
+      },
+      "previewImage": "KCC무럭무럭체/sample.png"
+    },
+    {
+      "id": "KCC임권택체",
+      "name": "KCC임권택체",
+      "fontFile": "KCC임권택체/KCC-Imkwontaek.otf",
+      "licenseFile": "KCC임권택체/KCC임권택체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13285735&menuNo=200023"
+      },
+      "previewImage": "KCC임권택체/sample.png"
+    },
+    {
+      "id": "KCC차쌤체",
+      "name": "KCC차쌤체",
+      "fontFile": "KCC차쌤체/KCC-Chassam.otf",
+      "licenseFile": "KCC차쌤체/KCC차쌤체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13285736&menuNo=200026"
+      },
+      "previewImage": "KCC차쌤체/sample.png"
+    },
+    {
+      "id": "Kopub_World_돋움체",
+      "name": "Kopub_World_돋움체",
+      "fontFile": "Kopub_World_돋움체/KoPubWorld DotumM.ttf",
+      "licenseFile": "Kopub_World_돋움체/Kopub World 돋움체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=419038&menuNo=200026"
+      },
+      "previewImage": "Kopub_World_돋움체/sample.png"
+    },
+    {
+      "id": "Kopub_World_바탕체",
+      "name": "Kopub_World_바탕체",
+      "fontFile": "Kopub_World_바탕체/KoPubWorld BatangM.ttf",
+      "licenseFile": "Kopub_World_바탕체/Kopub World 바탕체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13287213&menuNo=200023"
+      },
+      "previewImage": "Kopub_World_바탕체/sample.png"
+    },
+    {
+      "id": "LH체",
+      "name": "LH체",
+      "fontFile": "LH체/LH M.ttf",
+      "licenseFile": "LH체/LH체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288396&menuNo=200023"
+      },
+      "previewImage": "LH체/sample.png"
+    },
+    {
+      "id": "Mapo꽃섬",
+      "name": "Mapo꽃섬",
+      "fontFile": "Mapo꽃섬/MapoFlowerIsland.otf",
+      "licenseFile": "Mapo꽃섬/Mapo꽃섬.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288398&menuNo=200023"
+      },
+      "previewImage": "Mapo꽃섬/sample.png"
+    },
+    {
+      "id": "Mapo당안리발전소",
+      "name": "Mapo당안리발전소",
+      "fontFile": "Mapo당안리발전소/MapoDPP.otf",
+      "licenseFile": "Mapo당안리발전소/Mapo당안리발전소.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288399&menuNo=200026"
+      },
+      "previewImage": "Mapo당안리발전소/sample.png"
+    },
+    {
+      "id": "Mapo마포나루",
+      "name": "Mapo마포나루",
+      "fontFile": "Mapo마포나루/MapoMaponaru.otf",
+      "licenseFile": "Mapo마포나루/Mapo마포나루.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288401&menuNo=200026"
+      },
+      "previewImage": "Mapo마포나루/sample.png"
+    },
+    {
+      "id": "Mapo배낭여행",
+      "name": "Mapo배낭여행",
+      "fontFile": "Mapo배낭여행/MapoBackpacking.otf",
+      "licenseFile": "Mapo배낭여행/Mapo배낭여행.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288402&menuNo=200023"
+      },
+      "previewImage": "Mapo배낭여행/sample.png"
+    },
+    {
+      "id": "Mapo애민",
+      "name": "Mapo애민",
+      "fontFile": "Mapo애민/MapoAgape.otf",
+      "licenseFile": "Mapo애민/Mapo애민.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288403&menuNo=200023"
+      },
+      "previewImage": "Mapo애민/sample.png"
+    },
+    {
+      "id": "Mapo한아름",
+      "name": "Mapo한아름",
+      "fontFile": "Mapo한아름/MapoPeacefull.otf",
+      "licenseFile": "Mapo한아름/Mapo한아름.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288404&menuNo=200026"
+      },
+      "previewImage": "Mapo한아름/sample.png"
+    },
+    {
+      "id": "NanumGothic",
+      "name": "NanumGothic",
+      "fontFile": "NanumGothic/NanumGothic.otf",
+      "licenseFile": "NanumGothic/NanumGothic.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://hangeul.naver.com/"
+      },
+      "previewImage": "NanumGothic/sample.png"
+    },
+    {
+      "id": "NanumMyeongjo",
+      "name": "NanumMyeongjo",
+      "fontFile": "NanumMyeongjo/NanumMyeongjo.otf",
+      "licenseFile": "NanumMyeongjo/NanumMyeongjo.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://hangeul.naver.com/"
+      },
+      "previewImage": "NanumMyeongjo/sample.png"
+    },
+    {
+      "id": "NanumPen",
+      "name": "NanumPen",
+      "fontFile": "NanumPen/NanumPen.otf",
+      "licenseFile": "NanumPen/NanumPen.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://hangeul.naver.com/"
+      },
+      "previewImage": "NanumPen/sample.png"
+    },
+    {
+      "id": "RIDIBatang",
+      "name": "RIDIBatang",
+      "fontFile": "RIDIBatang/RIDIBatang.otf",
+      "licenseFile": "RIDIBatang/RIDIBatang.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://ridicorp.com/ridibatang/"
+      },
+      "previewImage": "RIDIBatang/sample.png"
+    },
+    {
+      "id": "Tlab신영복체",
+      "name": "Tlab신영복체",
+      "fontFile": "Tlab신영복체/Tlab신영복체.otf",
+      "licenseFile": "Tlab신영복체/Tlab신영복체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13111063&menuNo=200133"
+      },
+      "previewImage": "Tlab신영복체/sample.png"
+    },
+    {
+      "id": "가나초콜릿체",
+      "name": "가나초콜릿체",
+      "fontFile": "가나초콜릿체/Ghanachocolate.otf",
+      "licenseFile": "가나초콜릿체/가나초콜릿체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13262104&menuNo=200026"
+      },
+      "previewImage": "가나초콜릿체/sample.png"
+    },
+    {
+      "id": "가비아_납작블럭체",
+      "name": "가비아_납작블럭체",
+      "fontFile": "가비아_납작블럭체/gabia_napjakBlock.otf",
+      "licenseFile": "가비아_납작블럭체/가비아 납작블럭체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288264&menuNo=200023"
+      },
+      "previewImage": "가비아_납작블럭체/sample.png"
+    },
+    {
+      "id": "가비아_봄바람체",
+      "name": "가비아_봄바람체",
+      "fontFile": "가비아_봄바람체/gabia_bombaram.otf",
+      "licenseFile": "가비아_봄바람체/가비아 봄바람체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288265&menuNo=200026"
+      },
+      "previewImage": "가비아_봄바람체/sample.png"
+    },
+    {
+      "id": "가비아_솔미체",
+      "name": "가비아_솔미체",
+      "fontFile": "가비아_솔미체/gabia_solmee.otf",
+      "licenseFile": "가비아_솔미체/가비아 솔미체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288266&menuNo=200023"
+      },
+      "previewImage": "가비아_솔미체/sample.png"
+    },
+    {
+      "id": "경기천년바탕체",
+      "name": "경기천년바탕체",
+      "fontFile": "경기천년바탕체/경기천년바탕R.otf",
+      "licenseFile": "경기천년바탕체/경기천년바탕체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288410&menuNo=200023"
+      },
+      "previewImage": "경기천년바탕체/sample.png"
+    },
+    {
+      "id": "경기천년제목체",
+      "name": "경기천년제목체",
+      "fontFile": "경기천년제목체/경기천년제목M.otf",
+      "licenseFile": "경기천년제목체/경기천년제목체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288414&menuNo=200023"
+      },
+      "previewImage": "경기천년제목체/sample.png"
+    },
+    {
+      "id": "고양체",
+      "name": "고양체",
+      "fontFile": "고양체/Goyang.otf",
+      "licenseFile": "고양체/고양체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288416&menuNo=200023"
+      },
+      "previewImage": "고양체/sample.png"
+    },
+    {
+      "id": "국립공원_꼬미",
+      "name": "국립공원_꼬미",
+      "fontFile": "국립공원_꼬미/KNPSKkomi.otf",
+      "licenseFile": "국립공원_꼬미/국립공원 꼬미.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288476&menuNo=200026"
+      },
+      "previewImage": "국립공원_꼬미/sample.png"
+    },
+    {
+      "id": "국립공원_반달이",
+      "name": "국립공원_반달이",
+      "fontFile": "국립공원_반달이/KNPSBandali.otf",
+      "licenseFile": "국립공원_반달이/국립공원 반달이.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288477&menuNo=200023"
+      },
+      "previewImage": "국립공원_반달이/sample.png"
+    },
+    {
+      "id": "국립박물관문화재단클래식체",
+      "name": "국립박물관문화재단클래식체",
+      "fontFile": "국립박물관문화재단클래식체/국립박물관문화재단클래식M.otf",
+      "licenseFile": "국립박물관문화재단클래식체/국립박물관문화재단클래식체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288405&menuNo=200026"
+      },
+      "previewImage": "국립박물관문화재단클래식체/sample.png"
+    },
+    {
+      "id": "김정철_고딕체",
+      "name": "김정철_고딕체",
+      "fontFile": "김정철_고딕체/KimjungchulGothicR.otf",
+      "licenseFile": "김정철_고딕체/김정철_고딕체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13304541&menuNo=200026"
+      },
+      "previewImage": "김정철_고딕체/sample.png"
+    },
+    {
+      "id": "김포평화고딕체",
+      "name": "김포평화고딕체",
+      "fontFile": "김포평화고딕체/김포평화고딕체R.ttf",
+      "licenseFile": "김포평화고딕체/김포평화고딕체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288425&menuNo=200026"
+      },
+      "previewImage": "김포평화고딕체/sample.png"
+    },
+    {
+      "id": "김포평화바탕체",
+      "name": "김포평화바탕체",
+      "fontFile": "김포평화바탕체/김포평화바탕체.ttf",
+      "licenseFile": "김포평화바탕체/김포평화바탕체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288422&menuNo=200026"
+      },
+      "previewImage": "김포평화바탕체/sample.png"
+    },
+    {
+      "id": "김포평화제목체",
+      "name": "김포평화제목체",
+      "fontFile": "김포평화제목체/김포평화제목체.ttf",
+      "licenseFile": "김포평화제목체/김포평화제목체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288423&menuNo=200023"
+      },
+      "previewImage": "김포평화제목체/sample.png"
+    },
+    {
+      "id": "김해가야체",
+      "name": "김해가야체",
+      "fontFile": "김해가야체/GimhaeGayaR.otf",
+      "licenseFile": "김해가야체/김해가야체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288370&menuNo=200026"
+      },
+      "previewImage": "김해가야체/sample.png"
+    },
+    {
+      "id": "달서달링체",
+      "name": "달서달링체",
+      "fontFile": "달서달링체/DalseoDarling.ttf",
+      "licenseFile": "달서달링체/달서달링체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13304359&menuNo=200026"
+      },
+      "previewImage": "달서달링체/sample.png"
+    },
+    {
+      "id": "델타유니버스체",
+      "name": "델타유니버스체",
+      "fontFile": "델타유니버스체/Delta Universe.otf",
+      "licenseFile": "델타유니버스체/델타유니버스체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288248&menuNo=200023"
+      },
+      "previewImage": "델타유니버스체/sample.png"
+    },
+    {
+      "id": "마루부리",
+      "name": "마루부리",
+      "fontFile": "마루부리/MaruBuriR.otf",
+      "licenseFile": "마루부리/MaruBuri.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://hangeul.naver.com/"
+      },
+      "previewImage": "마루부리/sample.png"
+    },
+    {
+      "id": "문화재돌봄체",
+      "name": "문화재돌봄체",
+      "fontFile": "문화재돌봄체/문화재돌봄체 R.ttf",
+      "licenseFile": "문화재돌봄체/문화재돌봄체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288427&menuNo=200026"
+      },
+      "previewImage": "문화재돌봄체/sample.png"
+    },
+    {
+      "id": "박용준투사회보체",
+      "name": "박용준투사회보체",
+      "fontFile": "박용준투사회보체/Pak_Yong_jun.otf",
+      "licenseFile": "박용준투사회보체/박용준투사회보체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13304318&menuNo=200023"
+      },
+      "previewImage": "박용준투사회보체/sample.png"
+    },
+    {
+      "id": "배달의_민족_기랑해랑체",
+      "name": "배달의_민족_기랑해랑체",
+      "fontFile": "배달의_민족_기랑해랑체/BMKIRANGHAERANG.otf",
+      "licenseFile": "배달의_민족_기랑해랑체/배달의 민족 기랑해랑체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288262&menuNo=200023"
+      },
+      "previewImage": "배달의_민족_기랑해랑체/sample.png"
+    },
+    {
+      "id": "배달의_민족_도현체",
+      "name": "배달의_민족_도현체",
+      "fontFile": "배달의_민족_도현체/BMDOHYEON.otf",
+      "licenseFile": "배달의_민족_도현체/배달의 민족 도현체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288249&menuNo=200023"
+      },
+      "previewImage": "배달의_민족_도현체/sample.png"
+    },
+    {
+      "id": "배달의_민족_을지로체",
+      "name": "배달의_민족_을지로체",
+      "fontFile": "배달의_민족_을지로체/BMEULJIRO.otf",
+      "licenseFile": "배달의_민족_을지로체/배달의 민족 을지로체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288251&menuNo=200023"
+      },
+      "previewImage": "배달의_민족_을지로체/sample.png"
+    },
+    {
+      "id": "배달의_민족_주아체",
+      "name": "배달의_민족_주아체",
+      "fontFile": "배달의_민족_주아체/BMJUA.otf",
+      "licenseFile": "배달의_민족_주아체/배달의 민족 주아체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288252&menuNo=200023"
+      },
+      "previewImage": "배달의_민족_주아체/sample.png"
+    },
+    {
+      "id": "배달의_민족_한나는_열한살체",
+      "name": "배달의_민족_한나는_열한살체",
+      "fontFile": "배달의_민족_한나는_열한살체/BMHANNA_11yrs.otf",
+      "licenseFile": "배달의_민족_한나는_열한살체/배달의 민족 한나는 열한살체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288261&menuNo=200023"
+      },
+      "previewImage": "배달의_민족_한나는_열한살체/sample.png"
+    },
+    {
+      "id": "보케체",
+      "name": "보케체",
+      "fontFile": "보케체/BOKEH.otf",
+      "licenseFile": "보케체/보케체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288253&menuNo=200023"
+      },
+      "previewImage": "보케체/sample.png"
+    },
+    {
+      "id": "부산체",
+      "name": "부산체",
+      "fontFile": "부산체/BusanFont_Provisional.ttf",
+      "licenseFile": "부산체/부산체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288428&menuNo=200026"
+      },
+      "previewImage": "부산체/sample.png"
+    },
+    {
+      "id": "빛고을광주체",
+      "name": "빛고을광주체",
+      "fontFile": "빛고을광주체/빛고을광주M.ttf",
+      "licenseFile": "빛고을광주체/빛고을광주체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288419&menuNo=200023"
+      },
+      "previewImage": "빛고을광주체/sample.png"
+    },
+    {
+      "id": "상주경천섬체",
+      "name": "상주경천섬체",
+      "fontFile": "상주경천섬체/SANGJU Gyeongcheon Island.otf",
+      "licenseFile": "상주경천섬체/상주경천섬체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13289686&menuNo=200023"
+      },
+      "previewImage": "상주경천섬체/sample.png"
+    },
+    {
+      "id": "상주곶감체",
+      "name": "상주곶감체",
+      "fontFile": "상주곶감체/SANGJU Gotgam.otf",
+      "licenseFile": "상주곶감체/상주곶감체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13289687&menuNo=200023"
+      },
+      "previewImage": "상주곶감체/sample.png"
+    },
+    {
+      "id": "상주다정다감체",
+      "name": "상주다정다감체",
+      "fontFile": "상주다정다감체/SANGJU Dajungdagam.otf",
+      "licenseFile": "상주다정다감체/상주다정다감체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13289688&menuNo=200026"
+      },
+      "previewImage": "상주다정다감체/sample.png"
+    },
+    {
+      "id": "상주해례본체",
+      "name": "상주해례본체",
+      "fontFile": "상주해례본체/SANGJU Haerye.otf",
+      "licenseFile": "상주해례본체/상주해례본체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13289689&menuNo=200026"
+      },
+      "previewImage": "상주해례본체/sample.png"
+    },
+    {
+      "id": "서울남산 장체",
+      "name": "서울남산 장체",
+      "fontFile": "서울남산 장체/서울남산 장체M.ttf",
+      "licenseFile": "서울남산 장체/서울남산 장체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288441&menuNo=200023"
+      },
+      "previewImage": "서울남산 장체/sample.png"
+    },
+    {
+      "id": "서울남산체",
+      "name": "서울남산체",
+      "fontFile": "서울남산체/SeoulNamsanM.ttf",
+      "licenseFile": "서울남산체/서울남산체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288441&menuNo=200023"
+      },
+      "previewImage": "서울남산체/sample.png"
+    },
+    {
+      "id": "서울한강 장체",
+      "name": "서울한강 장체",
+      "fontFile": "서울한강 장체/서울한강 장체M.ttf",
+      "licenseFile": "서울한강 장체/서울한강 장체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288432&menuNo=200023"
+      },
+      "previewImage": "서울한강 장체/sample.png"
+    },
+    {
+      "id": "서울한강체",
+      "name": "서울한강체",
+      "fontFile": "서울한강체/SeoulHangangM.ttf",
+      "licenseFile": "서울한강체/서울한강체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288432&menuNo=200023"
+      },
+      "previewImage": "서울한강체/sample.png"
+    },
+    {
+      "id": "솔뫼_김대건체",
+      "name": "솔뫼_김대건체",
+      "fontFile": "솔뫼_김대건체/솔뫼 김대건M.otf",
+      "licenseFile": "솔뫼_김대건체/솔뫼 김대건체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288333&menuNo=200023"
+      },
+      "previewImage": "솔뫼_김대건체/sample.png"
+    },
+    {
+      "id": "수성돋음체",
+      "name": "수성돋음체",
+      "fontFile": "수성돋음체/SuseongDotum.ttf",
+      "licenseFile": "수성돋음체/수성돋음체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13304311&menuNo=200023"
+      },
+      "previewImage": "수성돋음체/sample.png"
+    },
+    {
+      "id": "수성혜정체",
+      "name": "수성혜정체",
+      "fontFile": "수성혜정체/SuseongHyejeong.ttf",
+      "licenseFile": "수성혜정체/수성혜정체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13304309&menuNo=200023"
+      },
+      "previewImage": "수성혜정체/sample.png"
+    },
+    {
+      "id": "순바탕체",
+      "name": "순바탕체",
+      "fontFile": "순바탕체/SunBatangM.otf",
+      "licenseFile": "순바탕체/순바탕체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288468&menuNo=200023"
+      },
+      "previewImage": "순바탕체/sample.png"
+    },
+    {
+      "id": "순천체",
+      "name": "순천체",
+      "fontFile": "순천체/SuncheonR.ttf",
+      "licenseFile": "순천체/순천체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288373&menuNo=200023"
+      },
+      "previewImage": "순천체/sample.png"
+    },
+    {
+      "id": "스포카_한_산스",
+      "name": "스포카_한_산스",
+      "fontFile": "스포카_한_산스/Spoqa Han SansR.ttf",
+      "licenseFile": "스포카_한_산스/스포카 한 산스.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288254&menuNo=200026"
+      },
+      "previewImage": "스포카_한_산스/sample.png"
+    },
+    {
+      "id": "아산이순신돋움체",
+      "name": "아산이순신돋움체",
+      "fontFile": "아산이순신돋움체/이순신돋움체M.ttf",
+      "licenseFile": "아산이순신돋움체/아산이순신돋움체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288451&menuNo=200026"
+      },
+      "previewImage": "아산이순신돋움체/sample.png"
+    },
+    {
+      "id": "아산이순신체",
+      "name": "아산이순신체",
+      "fontFile": "아산이순신체/이순신R.ttf",
+      "licenseFile": "아산이순신체/아산이순신체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288449&menuNo=200023"
+      },
+      "previewImage": "아산이순신체/sample.png"
+    },
+    {
+      "id": "안경잡이체",
+      "name": "안경잡이체",
+      "fontFile": "안경잡이체/FOUREYES.otf",
+      "licenseFile": "안경잡이체/안경잡이체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288256&menuNo=200023"
+      },
+      "previewImage": "안경잡이체/sample.png"
+    },
+    {
+      "id": "안동월영교체",
+      "name": "안동월영교체",
+      "fontFile": "안동월영교체/Wolyeonggyo.otf",
+      "licenseFile": "안동월영교체/안동월영교체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288376&menuNo=200023"
+      },
+      "previewImage": "안동월영교체/sample.png"
+    },
+    {
+      "id": "양평군체",
+      "name": "양평군체",
+      "fontFile": "양평군체/yangpyeongM.ttf",
+      "licenseFile": "양평군체/양평군체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288377&menuNo=200023"
+      },
+      "previewImage": "양평군체/sample.png"
+    },
+    {
+      "id": "영양군음식디미방체",
+      "name": "영양군음식디미방체",
+      "fontFile": "영양군음식디미방체/영양군 음식디미방체.otf",
+      "licenseFile": "영양군음식디미방체/영양군음식디미방체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288454&menuNo=200023"
+      },
+      "previewImage": "영양군음식디미방체/sample.png"
+    },
+    {
+      "id": "완도청정바다체",
+      "name": "완도청정바다체",
+      "fontFile": "완도청정바다체/WandocleanseaR.ttf",
+      "licenseFile": "완도청정바다체/완도청정바다체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288380&menuNo=200023"
+      },
+      "previewImage": "완도청정바다체/sample.png"
+    },
+    {
+      "id": "완도희망체",
+      "name": "완도희망체",
+      "fontFile": "완도희망체/WandohopeR.ttf",
+      "licenseFile": "완도희망체/완도희망체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288382&menuNo=200023"
+      },
+      "previewImage": "완도희망체/sample.png"
+    },
+    {
+      "id": "유앤피플_고딕체",
+      "name": "유앤피플_고딕체",
+      "fontFile": "유앤피플_고딕체/유앤피플 고딕.otf",
+      "licenseFile": "유앤피플_고딕체/유앤피플 고딕체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13210384&menuNo=200023"
+      },
+      "previewImage": "유앤피플_고딕체/sample.png"
+    },
+    {
+      "id": "전주완판본체순",
+      "name": "전주완판본체순",
+      "fontFile": "전주완판본체순/전주완판본 순.otf",
+      "licenseFile": "전주완판본체순/전주완판본체순.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288461&menuNo=200023"
+      },
+      "previewImage": "전주완판본체순/sample.png"
+    },
+    {
+      "id": "정선아리랑뿌리체",
+      "name": "정선아리랑뿌리체",
+      "fontFile": "정선아리랑뿌리체/JSArirangPPURI.otf",
+      "licenseFile": "정선아리랑뿌리체/정선아리랑뿌리체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288384&menuNo=200023"
+      },
+      "previewImage": "정선아리랑뿌리체/sample.png"
+    },
+    {
+      "id": "정선아리랑체",
+      "name": "정선아리랑체",
+      "fontFile": "정선아리랑체/JSArirang.otf",
+      "licenseFile": "정선아리랑체/정선아리랑체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288386&menuNo=200026"
+      },
+      "previewImage": "정선아리랑체/sample.png"
+    },
+    {
+      "id": "정선아리랑혼체",
+      "name": "정선아리랑혼체",
+      "fontFile": "정선아리랑혼체/JSArirangHON.otf",
+      "licenseFile": "정선아리랑혼체/정선아리랑혼체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288385&menuNo=200023"
+      },
+      "previewImage": "정선아리랑혼체/sample.png"
+    },
+    {
+      "id": "제주한라산체",
+      "name": "제주한라산체",
+      "fontFile": "제주한라산체/JejuHallasan.otf",
+      "licenseFile": "제주한라산체/제주한라산체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13287189&menuNo=200023"
+      },
+      "previewImage": "제주한라산체/sample.png"
+    },
+    {
+      "id": "중나좋체",
+      "name": "중나좋체",
+      "fontFile": "중나좋체/중나좋체M.otf",
+      "licenseFile": "중나좋체/중나좋체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13262134&menuNo=200023"
+      },
+      "previewImage": "중나좋체/sample.png"
+    },
+    {
+      "id": "창원단감아삭체",
+      "name": "창원단감아삭체",
+      "fontFile": "창원단감아삭체/창원단감아삭체.otf",
+      "licenseFile": "창원단감아삭체/창원단감아삭체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288462&menuNo=200023"
+      },
+      "previewImage": "창원단감아삭체/sample.png"
+    },
+    {
+      "id": "충북대70주년체",
+      "name": "충북대70주년체",
+      "fontFile": "충북대70주년체/충북대학교R.ttf",
+      "licenseFile": "충북대70주년체/충북대70주년체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302265&menuNo=200023"
+      },
+      "previewImage": "충북대70주년체/sample.png"
+    },
+    {
+      "id": "충북대직지체",
+      "name": "충북대직지체",
+      "fontFile": "충북대직지체/충북대직지체.ttf",
+      "licenseFile": "충북대직지체/충북대직지체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302267&menuNo=200026"
+      },
+      "previewImage": "충북대직지체/sample.png"
+    },
+    {
+      "id": "칠곡할매서체(권안자할머니)",
+      "name": "칠곡할매서체(권안자할머니)",
+      "fontFile": "칠곡할매서체(권안자할머니)/Chilgok_Kaj.otf",
+      "licenseFile": "칠곡할매서체(권안자할머니)/칠곡할매서체(권안자할머니).txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288463&menuNo=200026"
+      },
+      "previewImage": "칠곡할매서체(권안자할머니)/sample.png"
+    },
+    {
+      "id": "칠곡할매서체(김영분할머니)",
+      "name": "칠곡할매서체(김영분할머니)",
+      "fontFile": "칠곡할매서체(김영분할머니)/Chilgok_kyb.otf",
+      "licenseFile": "칠곡할매서체(김영분할머니)/칠곡할매서체(김영분할머니).txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288464&menuNo=200023"
+      },
+      "previewImage": "칠곡할매서체(김영분할머니)/sample.png"
+    },
+    {
+      "id": "칠곡할매서체(추유물할머니)",
+      "name": "칠곡할매서체(추유물할머니)",
+      "fontFile": "칠곡할매서체(추유물할머니)/Chilgok_Cye.otf",
+      "licenseFile": "칠곡할매서체(추유물할머니)/칠곡할매서체(추유물할머니).txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288467&menuNo=200023"
+      },
+      "previewImage": "칠곡할매서체(추유물할머니)/sample.png"
+    },
+    {
+      "id": "카카오작은글씨",
+      "name": "카카오작은글씨",
+      "fontFile": "카카오작은글씨/KakaoSmallSans-Regular.otf",
+      "licenseFile": "카카오작은글씨/카카오작은글씨.txt",
+      "license": {
+        "name": "오픈 폰트 라이선스(OFL)",
+        "image": "https://www.kakaocorp.com/page/detail/11594",
+        "imageAlt": "오픈 폰트 라이선스(OFL)",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302265&menuNo=200023"
+      },
+      "previewImage": "카카오작은글씨/sample.png"
+    },
+    {
+      "id": "카카오큰글씨",
+      "name": "카카오큰글씨",
+      "fontFile": "카카오큰글씨/KakaoBigSans-Regular.otf",
+      "licenseFile": "카카오큰글씨/카카오큰글씨.txt",
+      "license": {
+        "name": "오픈 폰트 라이선스(OFL)",
+        "image": "https://www.kakaocorp.com/page/detail/11594",
+        "imageAlt": "오픈 폰트 라이선스(OFL)",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302265&menuNo=200023"
+      },
+      "previewImage": "카카오큰글씨/sample.png"
+    },
+    {
+      "id": "코트라_고딕체",
+      "name": "코트라_고딕체",
+      "fontFile": "코트라_고딕체/KOTRA_GOTHIC.otf",
+      "licenseFile": "코트라_고딕체/코트라 고딕체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302256&menuNo=200023"
+      },
+      "previewImage": "코트라_고딕체/sample.png"
+    },
+    {
+      "id": "코트라_도약체",
+      "name": "코트라_도약체",
+      "fontFile": "코트라_도약체/KOTRA LEAP.otf",
+      "licenseFile": "코트라_도약체/코트라 도약체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302257&menuNo=200023"
+      },
+      "previewImage": "코트라_도약체/sample.png"
+    },
+    {
+      "id": "코트라_볼드체",
+      "name": "코트라_볼드체",
+      "fontFile": "코트라_볼드체/KOTRA_BOLD.otf",
+      "licenseFile": "코트라_볼드체/코트라 볼드체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302258&menuNo=200023"
+      },
+      "previewImage": "코트라_볼드체/sample.png"
+    },
+    {
+      "id": "코트라_손글씨체",
+      "name": "코트라_손글씨체",
+      "fontFile": "코트라_손글씨체/KOTRA_SONGEULSSI.otf",
+      "licenseFile": "코트라_손글씨체/코트라 손글씨체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302260&menuNo=200023"
+      },
+      "previewImage": "코트라_손글씨체/sample.png"
+    },
+    {
+      "id": "코트라_희망체",
+      "name": "코트라_희망체",
+      "fontFile": "코트라_희망체/KOTRA HOPE.otf",
+      "licenseFile": "코트라_희망체/코트라 희망체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302259&menuNo=200023"
+      },
+      "previewImage": "코트라_희망체/sample.png"
+    },
+    {
+      "id": "크룩트체",
+      "name": "크룩트체",
+      "fontFile": "크룩트체/CROOKED.otf",
+      "licenseFile": "크룩트체/크룩트체.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288258&menuNo=200023"
+      },
+      "previewImage": "크룩트체/sample.png"
+    },
+    {
+      "id": "포천막걸리체",
+      "name": "포천막걸리체",
+      "fontFile": "포천막걸리체/MAKGEOLLI.ttf",
+      "licenseFile": "포천막걸리체/포천막걸리체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288372&menuNo=200023"
+      },
+      "previewImage": "포천막걸리체/sample.png"
+    },
+    {
+      "id": "포천오성과한음체",
+      "name": "포천오성과한음체",
+      "fontFile": "포천오성과한음체/OSeongandHanEumR.ttf",
+      "licenseFile": "포천오성과한음체/포천오성과한음체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288378&menuNo=200023"
+      },
+      "previewImage": "포천오성과한음체/sample.png"
+    },
+    {
+      "id": "한국기계연구원",
+      "name": "한국기계연구원",
+      "fontFile": "한국기계연구원/한국기계연구원L.ttf",
+      "licenseFile": "한국기계연구원/한국기계연구원.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13304496&menuNo=200023"
+      },
+      "previewImage": "한국기계연구원/sample.png"
+    },
+    {
+      "id": "한글재민체_2.0",
+      "name": "한글재민체_2.0",
+      "fontFile": "한글재민체_2.0/Jaemin_v2.otf",
+      "licenseFile": "한글재민체_2.0/한글재민체 2.0.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288473&menuNo=200026"
+      },
+      "previewImage": "한글재민체_2.0/sample.png"
+    },
+    {
+      "id": "한글재민체_3.0",
+      "name": "한글재민체_3.0",
+      "fontFile": "한글재민체_3.0/Jaemin3R.otf",
+      "licenseFile": "한글재민체_3.0/한글재민체 3.0.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13304319&menuNo=200023"
+      },
+      "previewImage": "한글재민체_3.0/sample.png"
+    },
+    {
+      "id": "한나_Air",
+      "name": "한나_Air",
+      "fontFile": "한나_Air/BMHANNAAir.otf",
+      "licenseFile": "한나_Air/한나 Air.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288267&menuNo=200023"
+      },
+      "previewImage": "한나_Air/sample.png"
+    },
+    {
+      "id": "한나_Pro",
+      "name": "한나_Pro",
+      "fontFile": "한나_Pro/BMHANNAPro.ttf",
+      "licenseFile": "한나_Pro/한나 Pro.txt",
+      "license": {
+        "name": "OFL",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license30.png",
+        "imageAlt": "OFL",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288268&menuNo=200026"
+      },
+      "previewImage": "한나_Pro/sample.png"
+    },
+    {
+      "id": "한돋음체",
+      "name": "한돋음체",
+      "fontFile": "한돋음체/KHNPHDotfR.otf",
+      "licenseFile": "한돋음체/한돋음체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288390&menuNo=200023"
+      },
+      "previewImage": "한돋음체/sample.png"
+    },
+    {
+      "id": "한울림체",
+      "name": "한울림체",
+      "fontFile": "한울림체/KHNPHUotfR.otf",
+      "licenseFile": "한울림체/한울림체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288392&menuNo=200023"
+      },
+      "previewImage": "한울림체/sample.png"
+    },
+    {
+      "id": "해남체",
+      "name": "해남체",
+      "fontFile": "해남체/해남체.ttf",
+      "licenseFile": "해남체/해남체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288455&menuNo=200026"
+      },
+      "previewImage": "해남체/sample.png"
+    },
+    {
+      "id": "행복고흥체",
+      "name": "행복고흥체",
+      "fontFile": "행복고흥체/행복고흥M.otf",
+      "licenseFile": "행복고흥체/행복고흥체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288393&menuNo=200023"
+      },
+      "previewImage": "행복고흥체/sample.png"
+    },
+    {
+      "id": "환경체",
+      "name": "환경체",
+      "fontFile": "환경체/환경R.otf",
+      "licenseFile": "환경체/환경체R.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288471&menuNo=200023"
+      },
+      "previewImage": "환경체/sample.png"
+    },
+    {
+      "id": "횡성한우체",
+      "name": "횡성한우체",
+      "fontFile": "횡성한우체/Hoengseong Hanu.otf",
+      "licenseFile": "횡성한우체/횡성한우체.txt",
+      "license": {
+        "name": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "image": "https://gongu.copyright.or.kr/static/gongu/img/common/img_license01.png",
+        "imageAlt": "KOGL 출처표시, 상업적, 비상업적 이용가능, 변형 등 2차적 저작물 작성 가능",
+        "sourceUrl": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13302264&menuNo=200026"
+      },
+      "previewImage": "횡성한우체/sample.png"
+    }
+  ]
+}

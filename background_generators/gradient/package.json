@@ -1,0 +1,15 @@
+{
+  "name": "background-gradient-generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "tsx src/convert_to_webp.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,155 @@
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
+import { join, parse } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { createCanvas, GlobalFonts } from '@napi-rs/canvas';
+
+const project = join(fileURLToPath(new URL('.', import.meta.url)), '..', '..');
+const inputRoot = join(project, 'google_fonts');
+const outputRoot = join(project, 'fonts');
+const sourceGroups = ['ofl', 'apache', 'cc-by-sa'];
+const fontExtensions = new Set(['.ttf', '.otf', '.woff', '.woff2']);
+const greetings: Record<string, string> = {
+  korean: '안녕하세요',
+  japanese: 'こんにちは',
+  'chinese-simplified': '你好',
+  'chinese-traditional': '你好',
+  vietnamese: 'Xin chào',
+  latin: 'Hello',
+  cyrillic: 'Привет',
+  greek: 'Γειά σου',
+  arabic: 'مرحبًا',
+  hebrew: 'שלום',
+  devanagari: 'नमस्ते',
+  bengali: 'নমস্কার',
+  thai: 'สวัสดี',
+  georgian: 'გამარჯობა',
+  armenian: 'Բարեւ',
+  ethiopic: 'ሰላም',
+  sinhala: 'ආයුබෝවන්',
+  tamil: 'வணக்கம்',
+  telugu: 'నమస్కారం',
+  kannada: 'ನಮಸ್ಕಾರ',
+  malayalam: 'നമസ്കാരം',
+  gujarati: 'નમસ્તે',
+  gurmukhi: 'ਸਤ ਸ੍ਰੀ ਅਕਾਲ',
+};
+
+type FontVariant = { f: string; s: string; w: number };
+type CatalogFont = {
+  n: string;
+  ff: string;
+  lf: string;
+  l: string;
+  s: string[];
+  d: string;
+  p: string;
+};
+
+function field(text: string, name: string): string | null {
+  return text.match(new RegExp(`^\\s*${name}:\\s*"([^"]*)"`, 'm'))?.[1] ?? null;
+}
+
+function fields(text: string, name: string): string[] {
+  return [...text.matchAll(new RegExp(`^\\s*${name}:\\s*"([^"]*)"`, 'gm'))].map((m) => m[1]);
+}
+
+function variants(text: string): FontVariant[] {
+  return [...text.matchAll(/fonts\s*\{([\s\S]*?)\}/g)].flatMap((match) => {
+    const block = match[1];
+    const f = field(block, 'filename');
+    if (!f) return [];
+    return [{ f, s: field(block, 'style') ?? 'normal', w: Number(field(block, 'weight') ?? 400) }];
+  });
+}
+
+function representative(items: FontVariant[]): FontVariant {
+  return [...items].sort((a, b) => {
+    const style = Number(a.s !== 'normal') - Number(b.s !== 'normal');
+    return style || Math.abs(a.w - 400) - Math.abs(b.w - 400);
+  })[0];
+}
+
+function greetingLines(subsets: string[]): string[] {
+  const lines: string[] = [];
+  for (const subset of subsets) {
+    const greeting = greetings[subset];
+    if (greeting && !lines.includes(greeting)) lines.push(greeting);
+    if (lines.length === 8) break;
+  }
+  return lines.length > 0 ? lines : ['Hello'];
+}
+
+async function writeSample(
+  outputDirectory: string,
+  fontPath: string,
+  familyName: string,
+  subsets: string[],
+  fontId: string,
+): Promise<void> {
+  const lines = greetingLines(subsets);
+  const lineHeight = 30;
+  const canvas = createCanvas(400, 50 + lines.length * lineHeight);
+  const context = canvas.getContext('2d');
+  GlobalFonts.registerFromPath(fontPath, fontId);
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.fillStyle = '#000000';
+  context.textAlign = 'center';
+  context.textBaseline = 'middle';
+  context.font = `22px "${fontId}"`;
+  context.fillText(familyName, canvas.width / 2, 22);
+  context.font = `20px "${fontId}"`;
+  lines.forEach((line, index) => {
+    context.fillText(line, canvas.width / 2, 50 + index * lineHeight);
+  });
+  await writeFile(join(outputDirectory, 'sample.png'), canvas.toBuffer('image/png'));
+}
+
+async function main(): Promise<void> {
+  const catalog: CatalogFont[] = [];
+  for (const group of sourceGroups) {
+    const groupRoot = join(inputRoot, group);
+    const families = (await readdir(groupRoot, { withFileTypes: true }))
+      .filter((entry) => entry.isDirectory())
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    for (const family of families) {
+      const directory = join(groupRoot, family.name);
+      const metadataPath = join(directory, 'METADATA.pb');
+      let metadata: string;
+      try {
+        metadata = await readFile(metadataPath, 'utf8');
+      } catch {
+        continue;
+      }
+
+      const variantsInMetadata = variants(metadata);
+      const available = (await readdir(directory)).filter((file) => fontExtensions.has(parse(file).ext.toLowerCase()));
+      const selected = representative(variantsInMetadata.filter((item) => available.includes(item.f)));
+      if (!selected) continue;
+
+      const licenseFile = group === 'ofl' ? 'OFL.txt' : 'LICENSE.txt';
+      catalog.push({
+        n: field(metadata, 'name') ?? family.name,
+        ff: `${group}/${family.name}/${selected.f}`,
+        lf: `${group}/${family.name}/${licenseFile}`,
+        l: field(metadata, 'license') ?? group,
+        s: fields(metadata, 'subsets'),
+        d: field(metadata, 'designer') ?? '',
+        p: `${group}/${family.name}/sample.png`,
+      });
+      await mkdir(join(outputRoot, group, family.name), { recursive: true });
+      await writeSample(
+        join(outputRoot, group, family.name),
+        join(directory, selected.f),
+        field(metadata, 'name') ?? family.name,
+        fields(metadata, 'subsets'),
+        `${group}-${family.name}`,
+      );
+    }
+  }
+
+  await writeFile(join(outputRoot, 'catalog.json'), `${JSON.stringify({ v: 1, fonts: catalog })}\n`);
+  console.log(`Wrote ${catalog.length} font records.`);
+}
+
+await main();
