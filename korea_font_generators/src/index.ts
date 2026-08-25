@@ -11,6 +11,7 @@ const fontExtensions = new Set(['.ttf', '.otf', '.woff', '.woff2']);
 type CatalogFont = {
   id: string;
   name: string;
+  subsets: string[];
   fontFile: string;
   licenseFile: string | null;
   license: {
@@ -78,6 +79,7 @@ async function main(): Promise<void> {
     catalog.push({
       id: folder.name,
       name: folder.name,
+      subsets: ['korea'],
       fontFile: `${folder.name}/${files[0]}`,
       licenseFile: textFile ? `${folder.name}/${textFile}` : null,
       license,
