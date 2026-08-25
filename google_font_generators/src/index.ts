@@ -1,13 +1,63 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, parse } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { createCanvas, GlobalFonts } from '@napi-rs/canvas';
+import { createCanvas, GlobalFonts, loadImage } from '@napi-rs/canvas';
 
 const project = join(fileURLToPath(new URL('.', import.meta.url)), '..', '..');
 const inputRoot = join(project, 'google_fonts');
 const outputRoot = join(project, 'fonts');
 const sourceGroups = ['ofl', 'apache', 'cc-by-sa'];
 const fontExtensions = new Set(['.ttf', '.otf', '.woff', '.woff2']);
+
+function cropCanvas(source: ReturnType<typeof createCanvas>, padding = 10) {
+  const { width, height } = source;
+  const data = source.getContext('2d').getImageData(0, 0, width, height).data;
+  let left = width;
+  let top = height;
+  let right = -1;
+  let bottom = -1;
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      if (data[(y * width + x) * 4 + 3] === 0) continue;
+      left = Math.min(left, x);
+      top = Math.min(top, y);
+      right = Math.max(right, x);
+      bottom = Math.max(bottom, y);
+    }
+  }
+  if (right < 0) return source;
+  left = Math.max(0, left - padding);
+  top = Math.max(0, top - padding);
+  right = Math.min(width - 1, right + padding);
+  bottom = Math.min(height - 1, bottom + padding);
+  const cropped = createCanvas(right - left + 1, bottom - top + 1);
+  cropped.getContext('2d').drawImage(
+    source,
+    left,
+    top,
+    cropped.width,
+    cropped.height,
+    0,
+    0,
+    cropped.width,
+    cropped.height,
+  );
+  return cropped;
+}
+
+async function cropExistingSamples(root: string): Promise<void> {
+  const entries = await readdir(root, { withFileTypes: true, recursive: true });
+  for (const entry of entries) {
+    if (!entry.isFile() || entry.name !== 'sample.png' || !entry.parentPath) {
+      continue;
+    }
+    const path = join(entry.parentPath, entry.name);
+    const image = await loadImage(path);
+    const canvas = createCanvas(image.width, image.height);
+    canvas.getContext('2d').drawImage(image, 0, 0);
+    await writeFile(path, cropCanvas(canvas).toBuffer('image/png'));
+  }
+}
 const greetings: Record<string, string> = {
   korean: '안녕하세요',
   japanese: 'こんにちは',
@@ -101,10 +151,21 @@ async function writeSample(
   lines.forEach((line, index) => {
     context.fillText(line, canvas.width / 2, 50 + index * lineHeight);
   });
-  await writeFile(join(outputDirectory, 'sample.png'), canvas.toBuffer('image/png'));
+  await writeFile(
+    join(outputDirectory, 'sample.png'),
+    cropCanvas(canvas).toBuffer('image/png'),
+  );
 }
 
 async function main(): Promise<void> {
+  try {
+    await readdir(inputRoot);
+  } catch {
+    await cropExistingSamples(outputRoot);
+    console.log('Google Fonts source not found; cropped existing samples only.');
+    return;
+  }
+
   const catalog: CatalogFont[] = [];
   for (const group of sourceGroups) {
     const groupRoot = join(inputRoot, group);

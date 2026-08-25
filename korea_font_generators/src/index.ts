@@ -8,6 +8,42 @@ const width = 400;
 const height = 80;
 const fontExtensions = new Set(['.ttf', '.otf', '.woff', '.woff2']);
 
+function cropCanvas(source: ReturnType<typeof createCanvas>, padding = 10) {
+  const { width, height } = source;
+  const data = source.getContext('2d').getImageData(0, 0, width, height).data;
+  let left = width;
+  let top = height;
+  let right = -1;
+  let bottom = -1;
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      if (data[(y * width + x) * 4 + 3] === 0) continue;
+      left = Math.min(left, x);
+      top = Math.min(top, y);
+      right = Math.max(right, x);
+      bottom = Math.max(bottom, y);
+    }
+  }
+  if (right < 0) return source;
+  left = Math.max(0, left - padding);
+  top = Math.max(0, top - padding);
+  right = Math.min(width - 1, right + padding);
+  bottom = Math.min(height - 1, bottom + padding);
+  const cropped = createCanvas(right - left + 1, bottom - top + 1);
+  cropped.getContext('2d').drawImage(
+    source,
+    left,
+    top,
+    cropped.width,
+    cropped.height,
+    0,
+    0,
+    cropped.width,
+    cropped.height,
+  );
+  return cropped;
+}
+
 type CatalogFont = {
   id: string;
   name: string;
@@ -71,7 +107,10 @@ async function main(): Promise<void> {
     context.font = `20px "font-${generated}"`;
     context.fillText(parse(files[0]).name, width / 2, 58);
 
-    await writeFile(join(directory, 'sample.png'), canvas.toBuffer('image/png'));
+    await writeFile(
+      join(directory, 'sample.png'),
+      cropCanvas(canvas).toBuffer('image/png'),
+    );
     const textFile = (await readdir(directory)).find((file) => file.toLowerCase().endsWith('.txt'));
     const license = textFile
       ? readLicense(await readFile(join(directory, textFile), 'utf8'))
