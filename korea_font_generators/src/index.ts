@@ -118,7 +118,7 @@ async function main(): Promise<void> {
     catalog.push({
       id: folder.name,
       name: folder.name,
-      subsets: ['korea'],
+      subsets: ['korean'],
       fontFile: `${folder.name}/${files[0]}`,
       licenseFile: textFile ? `${folder.name}/${textFile}` : null,
       license,

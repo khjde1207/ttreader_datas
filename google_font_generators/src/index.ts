@@ -61,6 +61,7 @@ async function cropExistingSamples(root: string): Promise<void> {
 const greetings: Record<string, string> = {
   korean: '안녕하세요',
   japanese: 'こんにちは',
+  chinese: '你好',
   'chinese-simplified': '你好',
   'chinese-traditional': '你好',
   vietnamese: 'Xin chào',
@@ -94,6 +95,24 @@ type CatalogFont = {
   d: string;
   p: string;
 };
+
+function normalizeSubset(subset: string): string | null {
+  if (subset === 'menu') return null;
+  if (subset.startsWith('chinese-')) return 'chinese';
+  if (subset.startsWith('cyrillic-')) return 'cyrillic';
+  if (subset.startsWith('latin-')) return 'latin';
+  return subset;
+}
+
+function normalizedSubsets(subsets: string[]): string[] {
+  return [
+    ...new Set(
+      subsets
+        .map(normalizeSubset)
+        .filter((subset): subset is string => subset !== null),
+    ),
+  ];
+}
 
 function field(text: string, name: string): string | null {
   return text.match(new RegExp(`^\\s*${name}:\\s*"([^"]*)"`, 'm'))?.[1] ?? null;
@@ -189,12 +208,14 @@ async function main(): Promise<void> {
       if (!selected) continue;
 
       const licenseFile = group === 'ofl' ? 'OFL.txt' : 'LICENSE.txt';
+      const sourceSubsets = fields(metadata, 'subsets');
+      const subsets = normalizedSubsets(sourceSubsets);
       catalog.push({
         n: field(metadata, 'name') ?? family.name,
         ff: `${group}/${family.name}/${selected.f}`,
         lf: `${group}/${family.name}/${licenseFile}`,
         l: field(metadata, 'license') ?? group,
-        s: fields(metadata, 'subsets'),
+        s: subsets,
         d: field(metadata, 'designer') ?? '',
         p: `${group}/${family.name}/sample.png`,
       });
@@ -203,7 +224,7 @@ async function main(): Promise<void> {
         join(outputRoot, group, family.name),
         join(directory, selected.f),
         field(metadata, 'name') ?? family.name,
-        fields(metadata, 'subsets'),
+        sourceSubsets,
         `${group}-${family.name}`,
       );
     }
