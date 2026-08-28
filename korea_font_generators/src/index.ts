@@ -1,5 +1,5 @@
 import { createCanvas, GlobalFonts } from '@napi-rs/canvas';
-import { readdir, readFile, writeFile } from 'node:fs/promises';
+import { readdir, readFile, stat, writeFile } from 'node:fs/promises';
 import { join, parse, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -49,6 +49,7 @@ type CatalogFont = {
   name: string;
   subsets: string[];
   fontFile: string;
+  size: number;
   licenseFile: string | null;
   license: {
     name: string | null;
@@ -120,6 +121,7 @@ async function main(): Promise<void> {
       name: folder.name,
       subsets: ['korean'],
       fontFile: `${folder.name}/${files[0]}`,
+      size: (await stat(fontPath)).size,
       licenseFile: textFile ? `${folder.name}/${textFile}` : null,
       license,
       previewImage: `${folder.name}/sample.png`,

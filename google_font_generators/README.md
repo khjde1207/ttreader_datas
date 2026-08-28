@@ -9,5 +9,5 @@ npm run generate
 ```
 
 This first version writes metadata only. It selects one representative normal
-font per family and records subsets, designer, license, source font path, and
-the future `sample.png` path.
+font per family and records its size in bytes, subsets, designer, license,
+source font path, and the future `sample.png` path.

@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises';
 import { join, parse } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createCanvas, GlobalFonts, loadImage } from '@napi-rs/canvas';
@@ -89,6 +89,7 @@ type FontVariant = { f: string; s: string; w: number };
 type CatalogFont = {
   n: string;
   ff: string;
+  size: number;
   lf: string;
   l: string;
   s: string[];
@@ -213,6 +214,7 @@ async function main(): Promise<void> {
       catalog.push({
         n: field(metadata, 'name') ?? family.name,
         ff: `${group}/${family.name}/${selected.f}`,
+        size: (await stat(join(directory, selected.f))).size,
         lf: `${group}/${family.name}/${licenseFile}`,
         l: field(metadata, 'license') ?? group,
         s: subsets,
