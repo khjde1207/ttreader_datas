@@ -5,7 +5,8 @@
         "filter": "([ -\\,\\$\\€¥₩£“”’(\\u0027)!@#%^\\&*\\(\\)_+\\-\\=\\[\\{;:\"\\\\|\\<\\/\\?。，\\&]){0,3}([a-z]+|[A-Z][a-z]+ {0,1})([ -\\,\\$\\€¥₩£“”’(\\u0027)0-9!@#%^\\&*\\(\\)_+\\-\\=\\[\\]\\{\\};:\"\\\\|\\.\\<\\>\\/\\?。，\\&]){0,5}",
         "to": "",
         "enable": true,
-        "bSpecial": true
+        "bSpecial": true,
+        "group": "special_cases"
     },
     {
         "name": "Word filtering that repeats more than 3 times",
@@ -13,30 +14,16 @@
         "filter": "(((\\S{1,}..))\\2{3,})",
         "to": "",
         "enable": true,
-        "bSpecial": true
+        "bSpecial": true,
+        "group": "special_cases"
     },
     {
-        "name": "Add a period (.) between English abbreviations, be careful with the order(1)",
+        "name": "Add a period (.) between English abbreviations",
         "expr": true,
-        "filter": "([A-Z])([A-Z])([A-Z])([A-Z])",
-        "to": "$1.$2.$3.$4",
+        "filter": "(?<=[A-Z])(?=[A-Z]|\\b)",
+        "to": ".",
         "enable": true,
-        "bSpecial": true
-    },
-    {
-        "name": "Add a period (.) between English abbreviations, be careful with the order(2)",
-        "expr": true,
-        "filter": "([A-Z])([A-Z])([A-Z])",
-        "to": "$1.$2.$3",
-        "enable": true,
-        "bSpecial": true
-    },
-    {
-        "name": "Add a period (.) between English abbreviations, be careful with the order(3)",
-        "expr": true,
-        "filter": "([A-Z])([A-Z])",
-        "to": "$1.$2",
-        "enable": true,
-        "bSpecial": true
+        "bSpecial": true,
+        "group": "special_cases"
     }
 ]

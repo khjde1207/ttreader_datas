@@ -4,126 +4,168 @@
         "expr": true,
         "filter": "\\?{1,}",
         "to": "?",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "filter ----",
         "expr": true,
         "filter": "-{2,}",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "filter ===",
         "expr": true,
         "filter": "={2,}",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "filter .....",
         "expr": true,
         "filter": "\\.{2,}|\\…{1,}",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "filter ?!",
         "expr": true,
         "filter": "\\?{1,}!{1,}",
         "to": "!",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "filter !?",
         "expr": true,
         "filter": "!{1,}\\?{1,}",
         "to": "!",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "filter ?,!",
         "expr": true,
         "filter": "\"!\"|\"\\.\"|\"\\?\"|'!'|'\\?'|“\\.”|“!”|“\\?”|‘!’|‘\\?|\\[!\\]|\\[\\?\\]|\\[\\.\\]",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "apostrophe filter",
         "expr": true,
         "filter": "['\"“”‘’]",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "special character repeat filter",
         "expr": true,
         "filter": "\\&{2,}|\\#{2,}|\\@{2,}|\\${2,}|~{2,}|\\*{2,}|\\[\\]|\\(\\)|\\{\\}",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "http...",
         "expr": true,
         "filter": "h.{0,3}t.{0,3}t.{0,3}p.+",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "text_noise"
     },
     {
         "name": "~",
         "expr": true,
         "filter": "~+(?!\\s*\\d)",
         "to": " ",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
-        "name": "Filter <, >",
+        "name": "Remove angle brackets and contents",
         "expr": true,
-        "filter": "\\<(.+)\\>",
-        "to": "$1",
-        "enable": true
+        "filter": "<[^>]*>",
+        "to": "",
+        "enable": true,
+        "group": "symbols_content"
+    },
+    {
+        "name": "Remove square brackets and contents",
+        "expr": true,
+        "filter": "\\[[^\\]]*\\]",
+        "to": "",
+        "enable": true,
+        "group": "symbols_content"
+    },
+    {
+        "name": "Remove parentheses and contents",
+        "expr": true,
+        "filter": "\\([^)]*\\)",
+        "to": "",
+        "enable": true,
+        "group": "symbols_content"
+    },
+    {
+        "name": "Remove angle brackets only",
+        "expr": true,
+        "filter": "<|>",
+        "to": "",
+        "enable": true,
+        "group": "symbols_only"
+    },
+    {
+        "name": "Remove square brackets only",
+        "expr": true,
+        "filter": "\\[|\\]",
+        "to": "",
+        "enable": true,
+        "group": "symbols_only"
+    },
+    {
+        "name": "Remove parentheses only",
+        "expr": true,
+        "filter": "\\(|\\)",
+        "to": "",
+        "enable": true,
+        "group": "symbols_only"
     },
     {
         "name": "Filter ....!!!",
         "expr": true,
         "filter": "\\.{1,}\\!{1,}",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "Filter ----!!!!",
         "expr": true,
         "filter": "\\-{1,}\\!{1,}",
         "to": "",
-        "enable": true
-    },
-    {
-        "name": "filter [ , ]",
-        "expr": true,
-        "filter": "\\[|\\]",
-        "to": "",
-        "enable": true
-    },
-    {
-        "name": "filter (......) Parenthesis",
-        "expr": true,
-        "filter": "\\(.+?\\)",
-        "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "Special character filter",
         "expr": true,
         "filter": "[♥♣♠◀▶♪♫♬○●☆★△▲▽▼→←↑↓↗↖↘↙※◯*]",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "name": "semicolon",
         "expr": false,
         "filter": ";",
         "to": "",
-        "enable": true
+        "enable": true,
+        "group": "symbols"
     },
     {
         "filter": "(lv\\.)|(LV\\.)|(LV {0,}:)|(lv {0,}:)|(Lv\\.)|(Lv {0,}:)",
@@ -131,6 +173,7 @@
         "name": "Level",
         "expr": true,
         "to": "Level",
-        "totr": true
+        "totr": true,
+        "group": "text_noise"
     }
 ]
