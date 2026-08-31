@@ -5,7 +5,7 @@
         "filter": "[一-龥]|[㐀-䶵]|[豈-龎]",
         "to": "",
         "enable": true,
-        "group": "korean_only"
+        "group": "ko_korean_only"
     },
     {
         "name": "일본어 (일본어) 필터",
@@ -13,42 +13,42 @@
         "filter": "[ぁ-ゔ]|[ァ-ヴー]|[々〆〤]",
         "to": "",
         "enable": true,
-        "group": "korean_only"
+        "group": "ko_korean_only"
     },
     {
         "name": "끝이 다로 안끝나면서 거슬리는 문구.",
         "filter": "((상황)|(모습)|(더더욱)|(때문)|(뿐)).\\n",
         "to": "$1이다.",
         "expr": true,
-        "group": "natural_ending"
+        "group": "ko_natural_ending"
     },
     {
         "name": "때",
         "filter": "때.\n",
         "to": "때였다.",
         "expr": false,
-        "group": "natural_ending"
+        "group": "ko_natural_ending"
     },
     {
         "name": "있었고",
         "filter": "있었고.\n",
         "to": "있었다.",
         "expr": false,
-        "group": "natural_ending"
+        "group": "ko_natural_ending"
     },
     {
         "name": "순간.",
         "filter": "(순간.\\n)|(순간!\\n)",
         "to": "순간이었다.",
         "expr": true,
-        "group": "natural_ending"
+        "group": "ko_natural_ending"
     },
     {
         "name": "뭐뭐니까. 시리즈",
         "filter": "(되었|했|않았|였|었)으니까\\.\\n",
         "to": "$1다.",
         "expr": true,
-        "group": "natural_ending"
+        "group": "ko_natural_ending"
     },
     {
         "filter": "상태.",
@@ -57,7 +57,7 @@
         "expr": false,
         "to": "상태였다.",
         "locale": "ko-KR",
-        "group": "natural_ending"
+        "group": "ko_natural_ending"
     },
     {
         "filter": "때문에.\n",
@@ -65,14 +65,14 @@
         "name": "때문에.",
         "expr": false,
         "to": "때문이다.",
-        "group": "natural_ending"
+        "group": "ko_natural_ending"
     },
     {
         "name": "밑줄.",
         "filter": "_",
         "to": "",
         "expr": false,
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "&{1,1}",
@@ -80,7 +80,7 @@
         "name": "엔퍼센트",
         "expr": true,
         "to": " 엔 ",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "119 ?([가-힝])",
@@ -88,7 +88,7 @@
         "name": "119",
         "expr": true,
         "to": "일일구$1",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "911 ?([가-힝])",
@@ -96,7 +96,7 @@
         "name": "911",
         "expr": true,
         "to": "구일일$1",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "([0-9]{1,3}):([0-9]{1,3})",
@@ -104,7 +104,7 @@
         "name": "몇대몇",
         "expr": true,
         "to": "$1대$2",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "([0-9]+)/([0-9]+)",
@@ -112,7 +112,7 @@
         "name": "분지",
         "expr": true,
         "to": "$2분지$1",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "Ⅰ",
@@ -120,7 +120,7 @@
         "name": "Ⅰ",
         "expr": false,
         "to": "원",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "Ⅱ",
@@ -128,7 +128,7 @@
         "name": "Ⅱ",
         "expr": false,
         "to": "투",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "Ⅲ",
@@ -136,7 +136,7 @@
         "name": "Ⅲ",
         "expr": false,
         "to": "쓰리",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "Ⅳ",
@@ -144,7 +144,7 @@
         "name": "Ⅳ",
         "expr": false,
         "to": "포",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "Ⅴ",
@@ -152,7 +152,7 @@
         "name": "Ⅴ",
         "expr": false,
         "to": "파이브",
-        "group": "symbol_pronunciation"
+        "group": "ko_symbol_pronunciation"
     },
     {
         "filter": "ㅇㅈ",
@@ -160,7 +160,7 @@
         "name": "ㅇㅈ",
         "expr": false,
         "to": "인정,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅉㅉ",
@@ -168,7 +168,7 @@
         "name": "ㅉㅉ",
         "expr": false,
         "to": "쯔쯔,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "없었",
@@ -176,7 +176,7 @@
         "name": "없었",
         "expr": false,
         "to": "업섰",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅈㄴ",
@@ -184,7 +184,7 @@
         "name": "ㅈㄴ",
         "expr": false,
         "to": "졸라",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㄱㄱ+",
@@ -192,7 +192,7 @@
         "name": "ㄱㄱ",
         "expr": true,
         "to": "고고,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅎㅎ+",
@@ -200,7 +200,7 @@
         "name": "ㅎㅎ",
         "expr": true,
         "to": "흐흐,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅎㄷ",
@@ -208,7 +208,7 @@
         "name": "ㅎㄷ",
         "expr": false,
         "to": "후덜",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅅㄱ",
@@ -216,7 +216,7 @@
         "name": "ㅅㄱ",
         "expr": false,
         "to": "수고,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㄹㅇ",
@@ -224,7 +224,7 @@
         "name": "ㄹㅇ",
         "expr": false,
         "to": "리얼,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅎㄷㄷ",
@@ -232,7 +232,7 @@
         "name": "ㅎㄷㄷ",
         "expr": false,
         "to": "후덜덜,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㄷㄷ+",
@@ -240,7 +240,7 @@
         "name": "ㄷㄷ",
         "expr": true,
         "to": "덜덜,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅇㅇ+",
@@ -248,7 +248,7 @@
         "name": "ㅇㅇ",
         "expr": true,
         "to": "응,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㄴㅈ",
@@ -256,7 +256,7 @@
         "name": "ㄴㅈ",
         "expr": false,
         "to": "노잼,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㄴㄴ",
@@ -264,7 +264,7 @@
         "name": "ㄴㄴ",
         "expr": false,
         "to": "노노,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅋㅋ+",
@@ -272,7 +272,7 @@
         "name": "ㅋㅋ",
         "expr": true,
         "to": "크크,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "ㅅㅂ",
@@ -280,7 +280,7 @@
         "name": "ㅅㅂ",
         "expr": false,
         "to": "스바,",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "(\\d+화)?",
@@ -288,7 +288,7 @@
         "name": "화수필터",
         "expr": true,
         "to": "",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "짓이([겨겼])",
@@ -296,7 +296,7 @@
         "name": "짓이겨",
         "expr": true,
         "to": "진니$1",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "못이([기겨긴겼길])",
@@ -304,7 +304,7 @@
         "name": "못이...",
         "expr": true,
         "to": " 못 이$1",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "뱉었",
@@ -312,7 +312,7 @@
         "name": "뱉었",
         "expr": false,
         "to": "배텄",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "붙인",
@@ -320,7 +320,7 @@
         "name": "붙인",
         "expr": false,
         "to": "부친",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "것이리라",
@@ -328,7 +328,7 @@
         "name": "것이리라",
         "expr": false,
         "to": "거시리라",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "10월",
@@ -336,7 +336,7 @@
         "name": "10월",
         "expr": false,
         "to": "시월",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "곤란",
@@ -344,7 +344,7 @@
         "name": "곤란",
         "expr": false,
         "to": "골란",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "짙어",
@@ -352,7 +352,7 @@
         "name": "짙어",
         "expr": false,
         "to": "지터",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "웃음",
@@ -360,7 +360,7 @@
         "name": "웃음",
         "expr": false,
         "to": "우슴",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "붙여",
@@ -368,7 +368,7 @@
         "name": "붙여",
         "expr": false,
         "to": "부쳐",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "헛웃음",
@@ -376,7 +376,7 @@
         "name": "헛웃음",
         "expr": false,
         "to": "허두슴",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "없애",
@@ -384,7 +384,7 @@
         "name": "없애",
         "expr": false,
         "to": "업새",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "없앨",
@@ -392,7 +392,7 @@
         "name": "없앨",
         "expr": false,
         "to": "업샐",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "6월",
@@ -400,7 +400,7 @@
         "name": "6월",
         "expr": false,
         "to": "유월",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "뱉어",
@@ -408,7 +408,7 @@
         "name": "뱉어",
         "expr": false,
         "to": "배터",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "붙이",
@@ -416,7 +416,7 @@
         "name": "붙이",
         "expr": false,
         "to": "부치",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "없어",
@@ -424,7 +424,7 @@
         "name": "없어",
         "expr": false,
         "to": "업서",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "간략",
@@ -432,7 +432,7 @@
         "name": "간략",
         "expr": false,
         "to": "갈략",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "6월",
@@ -440,7 +440,7 @@
         "name": "6월",
         "expr": false,
         "to": "유월",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "집터",
@@ -448,7 +448,7 @@
         "name": "집터",
         "expr": false,
         "to": "집 터",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "([볼줄])게",
@@ -456,7 +456,7 @@
         "name": "볼게, 줄게",
         "expr": true,
         "to": "$1께",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "권력",
@@ -464,7 +464,7 @@
         "name": "권력",
         "expr": false,
         "to": "궐력",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "간략",
@@ -472,7 +472,7 @@
         "name": "간략",
         "expr": false,
         "to": "갈략",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "아랫입술",
@@ -480,7 +480,7 @@
         "name": "아랫입술",
         "expr": false,
         "to": "아랫 입술",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     },
     {
         "filter": "NPC",
@@ -488,6 +488,6 @@
         "name": "엔피씨",
         "expr": false,
         "to": "엔피씨",
-        "group": "natural_pronunciation"
+        "group": "ko_natural_pronunciation"
     }
 ]
