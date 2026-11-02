@@ -4,823 +4,823 @@
     "to": "뭘 하고",
     "expr": false,
     "name": "될 하고 → 뭘 하고",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "될 도",
     "to": "뭘 도",
     "expr": false,
     "name": "될 도 → 뭘 도",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "마니나",
     "to": "마나",
     "expr": false,
     "name": "마니나 → 마나",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "주소 렁크",
     "to": "주소 링크",
     "expr": false,
     "name": "주소 렁크 → 주소 링크",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "깜뻑",
     "to": "깜빡",
     "expr": false,
     "name": "깜뻑 → 깜빡",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "경악에 친",
     "to": "경악에 찬",
     "expr": false,
     "name": "경악에 친 → 경악에 찬",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "없않았고",
     "to": "않았고",
     "expr": false,
     "name": "없않았고 → 않았고",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "원 소리",
     "to": "뭔 소리",
     "expr": false,
     "name": "원 소리 → 뭔 소리",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "따히",
     "to": "딱히",
     "expr": false,
     "name": "따히 → 딱히",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "렇렇",
     "to": "렇",
     "expr": false,
     "name": "렇렇 → 렇",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "살펐",
     "to": "살폈",
     "expr": false,
     "name": "살펐 → 살폈",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "침대말",
     "to": "침대맡",
     "expr": false,
     "name": "침대말 → 침대맡",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "밀 무시",
     "to": "말 무시",
     "expr": false,
     "name": "밀 무시 → 말 무시",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "밀 그대로 ",
     "to": "말 그대로",
     "expr": false,
     "name": "밀 그대로  → 말 그대로",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "김탄",
     "to": "감탄",
     "expr": false,
     "name": "김탄 → 감탄",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "일겠다",
     "to": "알겠다",
     "expr": false,
     "name": "일겠다 → 알겠다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "간혔",
     "to": "갇혔",
     "expr": false,
     "name": "간혔 → 갇혔",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "부탁드럽",
     "to": "부탁드립",
     "expr": false,
     "name": "부탁드럽 → 부탁드립",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "버덮다",
     "to": "버텼다",
     "expr": false,
     "name": "버덮다 → 버텼다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "들어기가려면",
     "to": "들어가려면",
     "expr": false,
     "name": "들어기가려면 → 들어가려면",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "들어기려면",
     "to": "들어가려면",
     "expr": false,
     "name": "들어기려면 → 들어가려면",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "할 처자지가",
     "to": "할 처지가",
     "expr": false,
     "name": "할 처자지가 → 할 처지가",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "벌럴",
     "to": "벌릴",
     "expr": false,
     "name": "벌럴 → 벌릴",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "현터",
     "to": "헌터",
     "expr": false,
     "name": "현터 → 헌터",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "저먹다",
     "to": "처먹다",
     "expr": false,
     "name": "저먹다 → 처먹다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "헌텅",
     "to": "헌팅",
     "expr": false,
     "name": "헌텅 → 헌팅",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "나 한변만",
     "to": "나 한번만",
     "expr": false,
     "name": "나 한변만 → 나 한번만",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "밀을 말자",
     "to": "말을 말자",
     "expr": false,
     "name": "밀을 말자 → 말을 말자",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "조죄다",
     "to": "죄다",
     "expr": false,
     "name": "조죄다 → 죄다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "거량랑",
     "to": "거랑",
     "expr": false,
     "name": "거량랑 → 거랑",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "따리라 해",
     "to": "따라 해",
     "expr": false,
     "name": "따리라 해 → 따라 해",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "가절",
     "to": "기절",
     "expr": false,
     "name": "가절 → 기절",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "신제 능력",
     "to": "신체 능력",
     "expr": false,
     "name": "신제 능력 → 신체 능력",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": " 쥐봐",
     "to": " 줘봐",
     "expr": false,
     "name": " 쥐봐 →  줘봐",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "스길",
     "to": "스킬",
     "expr": false,
     "name": "스길 → 스킬",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "닮풍",
     "to": "닭똥",
     "expr": false,
     "name": "닮풍 → 닭똥",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "했으나까",
     "to": "했으니까",
     "expr": false,
     "name": "했으나까 → 했으니까",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "어던지모르게",
     "to": "어딘지모르게",
     "expr": false,
     "name": "어던지모르게 → 어딘지모르게",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "기지고",
     "to": "가지고",
     "expr": false,
     "name": "기지고 → 가지고",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "똑갈았다",
     "to": "똑같았다",
     "expr": false,
     "name": "똑갈았다 → 똑같았다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "멈줬다",
     "to": "멈췄다",
     "expr": false,
     "name": "멈줬다 → 멈췄다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "들슘",
     "to": "들숨",
     "expr": false,
     "name": "들슘 → 들숨",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "날슘",
     "to": "날숨",
     "expr": false,
     "name": "날슘 → 날숨",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "술슐",
     "to": "술술",
     "expr": false,
     "name": "술슐 → 술술",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "있였",
     "to": "있었",
     "expr": false,
     "name": "있였 → 있었",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "피지킬",
     "to": "피지컬",
     "expr": false,
     "name": "피지킬 → 피지컬",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": " 포한 ",
     "to": " 또한 ",
     "expr": false,
     "name": " 포한  →  또한 ",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "선엔",
     "to": "선언",
     "expr": false,
     "name": "선엔 → 선언",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "학교 동장",
     "to": "학교 동창",
     "expr": false,
     "name": "학교 동장 → 학교 동창",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "되지단",
     "to": "되지만",
     "expr": false,
     "name": "되지단 → 되지만",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "탈성해야",
     "to": "달성해야",
     "expr": false,
     "name": "탈성해야 → 달성해야",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "배를 로얄",
     "to": "배틀 로얄",
     "expr": false,
     "name": "배를 로얄 → 배틀 로얄",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "같히고",
     "to": "갇히고",
     "expr": false,
     "name": "같히고 → 갇히고",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "불잠",
     "to": "붙잡",
     "expr": false,
     "name": "불잠 → 붙잡",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "아십지만",
     "to": "아쉽지만",
     "expr": false,
     "name": "아십지만 → 아쉽지만",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": " 족각 ",
     "to": " 즉각 ",
     "expr": false,
     "name": " 족각  →  즉각 ",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "급실거립",
     "to": "굽실거립",
     "expr": false,
     "name": "급실거립 → 굽실거립",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "부지 화보",
     "to": "부지 확보",
     "expr": false,
     "name": "부지 화보 → 부지 확보",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "나하진말고",
     "to": "나빠하진말고",
     "expr": false,
     "name": "나하진말고 → 나빠하진말고",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "접이 나기",
     "to": "겁이 나기",
     "expr": false,
     "name": "접이 나기 → 겁이 나기",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "아납니다",
     "to": "아닙니다",
     "expr": false,
     "name": "아납니다 → 아닙니다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "열어붙어",
     "to": "얼어붙어",
     "expr": false,
     "name": "열어붙어 → 얼어붙어",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "필 먹고",
     "to": "뭘 먹고",
     "expr": false,
     "name": "필 먹고 → 뭘 먹고",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "화보해서",
     "to": "확보해서",
     "expr": false,
     "name": "화보해서 → 확보해서",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "젤끔질끔",
     "to": "찔끔찔끔",
     "expr": false,
     "name": "젤끔질끔 → 찔끔찔끔",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "눈치기 느린",
     "expr": false,
     "to": "눈치가 느린",
     "name": "눈치기 느린 → 눈치가 느린",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "못하다기",
     "expr": false,
     "to": "못하다가",
     "name": "못하다기 → 못하다가",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": " 것가락",
     "expr": false,
     "to": " 젓가락",
     "name": " 것가락 →  젓가락",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "반아야",
     "expr": false,
     "to": "받아야",
     "name": "반아야 → 받아야",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": " 전다.",
     "expr": false,
     "to": " 쩐다.",
     "name": " 전다. →  쩐다.",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "결끄럽긴",
     "expr": false,
     "to": "껄끄럽긴",
     "name": "결끄럽긴 → 껄끄럽긴",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "인기 전다",
     "expr": false,
     "to": "인기 쩐다",
     "name": "인기 전다 → 인기 쩐다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "그했을",
     "expr": false,
     "to": "그랬을",
     "name": "그했을 → 그랬을",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "반히 쳐",
     "expr": false,
     "to": "빤히 쳐",
     "name": "반히 쳐 → 빤히 쳐",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "베테링랑",
     "expr": false,
     "to": "베테랑",
     "name": "베테링랑 → 베테랑",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "핑장히",
     "expr": false,
     "to": "굉장히",
     "name": "핑장히 → 굉장히",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "밀했다",
     "expr": false,
     "to": "말했다",
     "name": "밀했다 → 말했다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "※ \\.+※",
     "expr": true,
     "to": "",
     "name": "※ \\.+※ → ",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "잡김",
     "expr": false,
     "to": "잠김",
     "name": "잡김 → 잠김",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "당혔했던",
     "expr": false,
     "to": "당했었던",
     "name": "당혔했던 → 당했었던",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "점증",
     "expr": false,
     "to": "검증",
     "name": "점증 → 검증",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "S00",
     "expr": false,
     "to": "500",
     "name": "S00 → 500",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "멸떨어진",
     "expr": false,
     "to": "덜떨어진",
     "name": "멸떨어진 → 덜떨어진",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "보죠좌석",
     "expr": false,
     "to": "보조좌석",
     "name": "보죠좌석 → 보조좌석",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "뒤었단다",
     "expr": false,
     "to": "튀었단다",
     "name": "뒤었단다 → 튀었단다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "다을",
     "expr": false,
     "to": "다음",
     "name": "다을 → 다음",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "다을",
     "expr": false,
     "to": "다음",
     "name": "다을 → 다음",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "잡김",
     "expr": false,
     "to": "잠김",
     "name": "잡김 → 잠김",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "듭니까",
     "expr": false,
     "to": "습니까",
     "name": "듭니까 → 습니까",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "사랍",
     "expr": false,
     "to": "사람",
     "name": "사랍 → 사람",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "밀바닥",
     "expr": false,
     "to": "밑바닥",
     "name": "밀바닥 → 밑바닥",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "제크인",
     "expr": false,
     "to": "체크인",
     "name": "제크인 → 체크인",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "과견",
     "expr": false,
     "to": "파견",
     "name": "과견 → 파견",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "당혔했던",
     "expr": false,
     "to": "당했었던",
     "name": "당혔했던 → 당했었던",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "전두복",
     "expr": false,
     "to": "전투복",
     "name": "전두복 → 전투복",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "있였다",
     "expr": false,
     "to": "있었다",
     "name": "있였다 → 있었다",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "보협",
     "expr": false,
     "to": "보험",
     "name": "보협 → 보험",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "딸어",
     "expr": false,
     "to": "말어",
     "name": "딸어 → 말어",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "S백만",
     "expr": false,
     "to": "5백만",
     "name": "S백만 → 5백만",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "밀바닥",
     "expr": false,
     "to": "밑바닥",
     "name": "밀바닥 → 밑바닥",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "너회를",
     "expr": false,
     "to": "너희를",
     "name": "너회를 → 너희를",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "점근",
     "expr": false,
     "to": "접근",
     "name": "점근 → 접근",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   },
   {
     "form": "쫏",
     "expr": false,
     "to": "쫓",
     "name": "쫏 → 쫓",
-    "group": "OCR 한국어 보정",
-    "enable": true
+    "enable": true,
+    "tags": "OCR 한국어 보정"
   }
 ]
