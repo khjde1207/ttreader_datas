@@ -5,7 +5,7 @@
     "expr": false,
     "name": "될 하고 → 뭘 하고",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "될 도",
@@ -13,7 +13,7 @@
     "expr": false,
     "name": "될 도 → 뭘 도",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "마니나",
@@ -21,7 +21,7 @@
     "expr": false,
     "name": "마니나 → 마나",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "주소 렁크",
@@ -29,7 +29,7 @@
     "expr": false,
     "name": "주소 렁크 → 주소 링크",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "깜뻑",
@@ -37,7 +37,7 @@
     "expr": false,
     "name": "깜뻑 → 깜빡",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "경악에 친",
@@ -45,7 +45,7 @@
     "expr": false,
     "name": "경악에 친 → 경악에 찬",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "없않았고",
@@ -53,7 +53,7 @@
     "expr": false,
     "name": "없않았고 → 않았고",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "원 소리",
@@ -61,7 +61,7 @@
     "expr": false,
     "name": "원 소리 → 뭔 소리",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "따히",
@@ -69,7 +69,7 @@
     "expr": false,
     "name": "따히 → 딱히",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "렇렇",
@@ -77,7 +77,7 @@
     "expr": false,
     "name": "렇렇 → 렇",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "살펐",
@@ -85,7 +85,7 @@
     "expr": false,
     "name": "살펐 → 살폈",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "침대말",
@@ -93,7 +93,7 @@
     "expr": false,
     "name": "침대말 → 침대맡",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "밀 무시",
@@ -101,7 +101,7 @@
     "expr": false,
     "name": "밀 무시 → 말 무시",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "밀 그대로 ",
@@ -109,7 +109,7 @@
     "expr": false,
     "name": "밀 그대로  → 말 그대로",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "김탄",
@@ -117,7 +117,7 @@
     "expr": false,
     "name": "김탄 → 감탄",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "일겠다",
@@ -125,7 +125,7 @@
     "expr": false,
     "name": "일겠다 → 알겠다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "간혔",
@@ -133,7 +133,7 @@
     "expr": false,
     "name": "간혔 → 갇혔",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "부탁드럽",
@@ -141,7 +141,7 @@
     "expr": false,
     "name": "부탁드럽 → 부탁드립",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "버덮다",
@@ -149,7 +149,7 @@
     "expr": false,
     "name": "버덮다 → 버텼다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "들어기가려면",
@@ -157,7 +157,7 @@
     "expr": false,
     "name": "들어기가려면 → 들어가려면",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "들어기려면",
@@ -165,7 +165,7 @@
     "expr": false,
     "name": "들어기려면 → 들어가려면",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "할 처자지가",
@@ -173,7 +173,7 @@
     "expr": false,
     "name": "할 처자지가 → 할 처지가",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "벌럴",
@@ -181,7 +181,7 @@
     "expr": false,
     "name": "벌럴 → 벌릴",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "현터",
@@ -189,7 +189,7 @@
     "expr": false,
     "name": "현터 → 헌터",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "저먹다",
@@ -197,7 +197,7 @@
     "expr": false,
     "name": "저먹다 → 처먹다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "헌텅",
@@ -205,7 +205,7 @@
     "expr": false,
     "name": "헌텅 → 헌팅",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "나 한변만",
@@ -213,7 +213,7 @@
     "expr": false,
     "name": "나 한변만 → 나 한번만",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "밀을 말자",
@@ -221,7 +221,7 @@
     "expr": false,
     "name": "밀을 말자 → 말을 말자",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "조죄다",
@@ -229,7 +229,7 @@
     "expr": false,
     "name": "조죄다 → 죄다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "거량랑",
@@ -237,7 +237,7 @@
     "expr": false,
     "name": "거량랑 → 거랑",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "따리라 해",
@@ -245,7 +245,7 @@
     "expr": false,
     "name": "따리라 해 → 따라 해",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "가절",
@@ -253,7 +253,7 @@
     "expr": false,
     "name": "가절 → 기절",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "신제 능력",
@@ -261,7 +261,7 @@
     "expr": false,
     "name": "신제 능력 → 신체 능력",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": " 쥐봐",
@@ -269,7 +269,7 @@
     "expr": false,
     "name": " 쥐봐 →  줘봐",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "스길",
@@ -277,7 +277,7 @@
     "expr": false,
     "name": "스길 → 스킬",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "닮풍",
@@ -285,7 +285,7 @@
     "expr": false,
     "name": "닮풍 → 닭똥",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "했으나까",
@@ -293,7 +293,7 @@
     "expr": false,
     "name": "했으나까 → 했으니까",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "어던지모르게",
@@ -301,7 +301,7 @@
     "expr": false,
     "name": "어던지모르게 → 어딘지모르게",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "기지고",
@@ -309,7 +309,7 @@
     "expr": false,
     "name": "기지고 → 가지고",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "똑갈았다",
@@ -317,7 +317,7 @@
     "expr": false,
     "name": "똑갈았다 → 똑같았다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "멈줬다",
@@ -325,7 +325,7 @@
     "expr": false,
     "name": "멈줬다 → 멈췄다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "들슘",
@@ -333,7 +333,7 @@
     "expr": false,
     "name": "들슘 → 들숨",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "날슘",
@@ -341,7 +341,7 @@
     "expr": false,
     "name": "날슘 → 날숨",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "술슐",
@@ -349,7 +349,7 @@
     "expr": false,
     "name": "술슐 → 술술",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "있였",
@@ -357,7 +357,7 @@
     "expr": false,
     "name": "있였 → 있었",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "피지킬",
@@ -365,7 +365,7 @@
     "expr": false,
     "name": "피지킬 → 피지컬",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": " 포한 ",
@@ -373,7 +373,7 @@
     "expr": false,
     "name": " 포한  →  또한 ",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "선엔",
@@ -381,7 +381,7 @@
     "expr": false,
     "name": "선엔 → 선언",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "학교 동장",
@@ -389,7 +389,7 @@
     "expr": false,
     "name": "학교 동장 → 학교 동창",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "되지단",
@@ -397,7 +397,7 @@
     "expr": false,
     "name": "되지단 → 되지만",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "탈성해야",
@@ -405,7 +405,7 @@
     "expr": false,
     "name": "탈성해야 → 달성해야",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "배를 로얄",
@@ -413,7 +413,7 @@
     "expr": false,
     "name": "배를 로얄 → 배틀 로얄",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "같히고",
@@ -421,7 +421,7 @@
     "expr": false,
     "name": "같히고 → 갇히고",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "불잠",
@@ -429,7 +429,7 @@
     "expr": false,
     "name": "불잠 → 붙잡",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "아십지만",
@@ -437,7 +437,7 @@
     "expr": false,
     "name": "아십지만 → 아쉽지만",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": " 족각 ",
@@ -445,7 +445,7 @@
     "expr": false,
     "name": " 족각  →  즉각 ",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "급실거립",
@@ -453,7 +453,7 @@
     "expr": false,
     "name": "급실거립 → 굽실거립",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "부지 화보",
@@ -461,7 +461,7 @@
     "expr": false,
     "name": "부지 화보 → 부지 확보",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "나하진말고",
@@ -469,7 +469,7 @@
     "expr": false,
     "name": "나하진말고 → 나빠하진말고",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "접이 나기",
@@ -477,7 +477,7 @@
     "expr": false,
     "name": "접이 나기 → 겁이 나기",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "아납니다",
@@ -485,7 +485,7 @@
     "expr": false,
     "name": "아납니다 → 아닙니다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "열어붙어",
@@ -493,7 +493,7 @@
     "expr": false,
     "name": "열어붙어 → 얼어붙어",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "필 먹고",
@@ -501,7 +501,7 @@
     "expr": false,
     "name": "필 먹고 → 뭘 먹고",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "화보해서",
@@ -509,7 +509,7 @@
     "expr": false,
     "name": "화보해서 → 확보해서",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "젤끔질끔",
@@ -517,7 +517,7 @@
     "expr": false,
     "name": "젤끔질끔 → 찔끔찔끔",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "눈치기 느린",
@@ -525,7 +525,7 @@
     "to": "눈치가 느린",
     "name": "눈치기 느린 → 눈치가 느린",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "못하다기",
@@ -533,7 +533,7 @@
     "to": "못하다가",
     "name": "못하다기 → 못하다가",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": " 것가락",
@@ -541,7 +541,7 @@
     "to": " 젓가락",
     "name": " 것가락 →  젓가락",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "반아야",
@@ -549,7 +549,7 @@
     "to": "받아야",
     "name": "반아야 → 받아야",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": " 전다.",
@@ -557,7 +557,7 @@
     "to": " 쩐다.",
     "name": " 전다. →  쩐다.",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "결끄럽긴",
@@ -565,7 +565,7 @@
     "to": "껄끄럽긴",
     "name": "결끄럽긴 → 껄끄럽긴",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "인기 전다",
@@ -573,7 +573,7 @@
     "to": "인기 쩐다",
     "name": "인기 전다 → 인기 쩐다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "그했을",
@@ -581,7 +581,7 @@
     "to": "그랬을",
     "name": "그했을 → 그랬을",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "반히 쳐",
@@ -589,7 +589,7 @@
     "to": "빤히 쳐",
     "name": "반히 쳐 → 빤히 쳐",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "베테링랑",
@@ -597,7 +597,7 @@
     "to": "베테랑",
     "name": "베테링랑 → 베테랑",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "핑장히",
@@ -605,7 +605,7 @@
     "to": "굉장히",
     "name": "핑장히 → 굉장히",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "밀했다",
@@ -613,7 +613,7 @@
     "to": "말했다",
     "name": "밀했다 → 말했다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "※ \\.+※",
@@ -621,7 +621,7 @@
     "to": "",
     "name": "※ \\.+※ → ",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "잡김",
@@ -629,7 +629,7 @@
     "to": "잠김",
     "name": "잡김 → 잠김",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "당혔했던",
@@ -637,7 +637,7 @@
     "to": "당했었던",
     "name": "당혔했던 → 당했었던",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "점증",
@@ -645,7 +645,7 @@
     "to": "검증",
     "name": "점증 → 검증",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "S00",
@@ -653,7 +653,7 @@
     "to": "500",
     "name": "S00 → 500",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "멸떨어진",
@@ -661,7 +661,7 @@
     "to": "덜떨어진",
     "name": "멸떨어진 → 덜떨어진",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "보죠좌석",
@@ -669,7 +669,7 @@
     "to": "보조좌석",
     "name": "보죠좌석 → 보조좌석",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "뒤었단다",
@@ -677,7 +677,7 @@
     "to": "튀었단다",
     "name": "뒤었단다 → 튀었단다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "다을",
@@ -685,7 +685,7 @@
     "to": "다음",
     "name": "다을 → 다음",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "다을",
@@ -693,7 +693,7 @@
     "to": "다음",
     "name": "다을 → 다음",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "잡김",
@@ -701,7 +701,7 @@
     "to": "잠김",
     "name": "잡김 → 잠김",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "듭니까",
@@ -709,7 +709,7 @@
     "to": "습니까",
     "name": "듭니까 → 습니까",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "사랍",
@@ -717,7 +717,7 @@
     "to": "사람",
     "name": "사랍 → 사람",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "밀바닥",
@@ -725,7 +725,7 @@
     "to": "밑바닥",
     "name": "밀바닥 → 밑바닥",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "제크인",
@@ -733,7 +733,7 @@
     "to": "체크인",
     "name": "제크인 → 체크인",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "과견",
@@ -741,7 +741,7 @@
     "to": "파견",
     "name": "과견 → 파견",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "당혔했던",
@@ -749,7 +749,7 @@
     "to": "당했었던",
     "name": "당혔했던 → 당했었던",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "전두복",
@@ -757,7 +757,7 @@
     "to": "전투복",
     "name": "전두복 → 전투복",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "있였다",
@@ -765,7 +765,7 @@
     "to": "있었다",
     "name": "있였다 → 있었다",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "보협",
@@ -773,7 +773,7 @@
     "to": "보험",
     "name": "보협 → 보험",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "딸어",
@@ -781,7 +781,7 @@
     "to": "말어",
     "name": "딸어 → 말어",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "S백만",
@@ -789,7 +789,7 @@
     "to": "5백만",
     "name": "S백만 → 5백만",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "밀바닥",
@@ -797,7 +797,7 @@
     "to": "밑바닥",
     "name": "밀바닥 → 밑바닥",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "너회를",
@@ -805,7 +805,7 @@
     "to": "너희를",
     "name": "너회를 → 너희를",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "점근",
@@ -813,7 +813,7 @@
     "to": "접근",
     "name": "점근 → 접근",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   },
   {
     "form": "쫏",
@@ -821,6 +821,6 @@
     "to": "쫓",
     "name": "쫏 → 쫓",
     "enable": true,
-    "tags": "OCR 한국어 보정"
+    "tags": "OCR한국어보정"
   }
 ]
